@@ -3,5 +3,7 @@ on:
   push:
 jobs:
   call-greeting:
-     uses: ./.github/workflows/reusable.yaml  
+     uses: ./.github/workflows/reusable.yaml 
+     with: 
+      name: "ajit"  
        
