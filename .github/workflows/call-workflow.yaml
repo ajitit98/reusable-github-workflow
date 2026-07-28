@@ -1,0 +1,6 @@
+name: calll workflow 
+on:
+  push:
+jobs:
+  call-greeting:
+     uses: ./.github/workflow/reusable.yaml    
